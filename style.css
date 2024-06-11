@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: monospace;
+    background-image: url("images/car.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: #ff973c;
+    text-shadow: 0 0 20px var(--glow-color);
+    
+}
+
+.logo{
+
+    position: absolute;
+    width: 150px;
+    margin: -45px 300px 400px 100px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 22px;
+    
+}
+
+nav a:focus {
+    outline: 2px solid rgb(179, 5, 164);
+    outline-offset: 4px;
+    color: white;
+}
+
+
+.container {
+    color: rgb(224, 224, 224);
+    text-align: left;
+    margin: 80px;
+    margin-top: 100px;
+    font-family: "Oswald", sans-serif;
+}
+.container h1 {
+    margin: 5px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5rem;
+}
+.container p {
+    font-family: "Graduate", serif;
+    font-style: normal;
+    margin-left: 20px;
+    width: 600px;
+}
+
+button:active {
+    transform: scale(0.95);
+    background: none;
+    color: white;
+    
+}
+
+
+.button-row {
+    margin: 20px;
+}
+.button-row button {
+    padding: 20px;
+}
+
+.button-row a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    color: white;
+    font-size: 0.8rem;
+}
+.form {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+button {
+    background: none;
+    border-style: inset (0.5s);
+    padding: 8px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: rgb(8, 172, 194);
+}
+nav .form {
+    display: flex;
+    margin-left: 120px;
+    right: 0;
+    left: 0;
+   
+}
+.body {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+}
+.hidden {
+    display: none;
+}
+
+#loginForm, #regForm {
+    border: 3px solid #690559;
+    padding: 20px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #fffdfd;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fafafa;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 20px;
+    border: 1px solid #fffefe;
+    border-radius: 4px;
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #5a5a5a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #555;
+}
+.acc p{
+    color: white;
+}
+
+.container h1 {
+    margin-left: 28px;
+}
+
+.registerButton::after {
+    transition: inset 0.5s;
+
+}

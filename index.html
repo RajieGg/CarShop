@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Modify Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img class="logo" src="images/logo2.png" alt="">
+    <header>
+        
+        <nav>
+            <div class="Btn">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="form">
+                <div class="log-form">
+                    <button id="loginButton">Login</button>
+                </div>
+                <div class="reg-form">
+                    <button id="registerButton">Register</button>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    <div class="body">
+        <div id="loginForm" class="hidden">
+            <h2>Login</h2>
+            <form action="login.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button class="submit" type="submit">Login</button>
+            </form>
+        </div>
+        <div id="regForm" class="hidden">
+            <h2>Register</h2>
+            <form action="register.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>         
+                <button class="submit" type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <h1>EXPLORE YOUR DREAM CAR</h1>
+        <p>Step inside and experience a sanctuary of luxury and technology. Sink into sumptuous leather seats that embrace you in comfort, while an array of high-definition displays seamlessly integrate entertainment, navigation, and vehicle diagnostics at your fingertips.</p>
+
+        <div class="button-row">
+            <button class="glowing-btn"><a href="shop.html"><span class="glowing-txt">SHOP<span class="faulty-letter">N</span>OW</span></a></button>
+            <button class="glowing-btn"><a href="contact.html"><span class="glowing-txt">TEXT<span class="faulty-letter">U</span>S</span></a></button>
+        </div>
+        
+    </div>
+
+    <div class="card">
+        <div class="single">
+            <div class="card-img">
+                <div class="image">
+                    <img src="images/1.jpg" alt="">
+                    
+                </div>
+            </div>
+            <div class="content">
+                <div class="title">Shop Now</div>
+                <p>Upgrade your ride with top-notch body parts from<br> Drive with confidence and style!</p>
+            </div>
+        </div>
+        <div class="single">
+            <div class="card-img">
+                <div class="image">
+
+                    <img src="images/2.jpg" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <div class="title">Shop Now</div>
+                <p>Turn heads on the road with our premium body parts collection at<br>Elevate your ride, one sleek detail at a time!</p>
+            </div>
+        </div>
+        <div class="single">
+            <div class="card-img">
+                <div class="image">
+
+                    <img src="images/3.jpg" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <div class="title">Shop Now</div>
+                <p>Revitalize your vehicle's appearance with our high-quality body parts at<br>Unleash its full potential on the road!</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="src/main.js"></script>
+</body>
+</html>

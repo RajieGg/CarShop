@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Modify Shop</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="head.css">
+</head>
+<body>
+    <img class="logo" src="images/logo2.png" alt="">
+    <header>
+        
+        <nav>
+            <div class="Btn">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="form">
+                <div class="log-form">
+                    <button id="loginButton">Login</button>
+                </div>
+                <div class="reg-form">
+                    <button id="registerButton">Register</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="body">
+        <div id="loginForm" class="hidden">
+            <h2>SSJ Shop Login</h2>
+            <form action="login.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button class="submit" type="submit">Login</button>
+            </form>
+            
+            <p>Don't have an account? <a href="register.html">Register here</a></p>
+        </div>
+        <div id="regForm" class="hidden">
+            <h2>SSJ Shop Register</h2>
+            <form action="register.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button class="submit" type="submit">Register</button>
+            </form>
+            
+            <p>Already have an account? <a href="index.html">Login here</a></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
